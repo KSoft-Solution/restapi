@@ -1,7 +1,7 @@
 require('dotenv').config()
 const colors = require('colors')
-const app = require('./app/app')
-const connectDB = require('./app/config/database.config')
+const app = require('./api/app')
+const connectDB = require('./api/config/database.config')
 
 const PORT = process.env.PORT || 5000
 
